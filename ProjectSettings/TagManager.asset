@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Bullet
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -13,14 +15,14 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Bullet
+  - Enemy
+  - Wall
+  - Blocked
+  - Lava
+  - Environment
+  - Spawn
   - 
   - 
   - 
@@ -44,6 +46,9 @@ TagManager:
   - name: Ground
     uniqueID: 3154010105
     locked: 0
+  - name: Spawn
+    uniqueID: 883774909
+    locked: 0
   - name: Lava
     uniqueID: 179244487
     locked: 0
@@ -52,6 +57,9 @@ TagManager:
     locked: 0
   - name: Wall
     uniqueID: 2960722393
+    locked: 0
+  - name: Blocked
+    uniqueID: 3700348113
     locked: 0
   - name: Bullet
     uniqueID: 4066021577
